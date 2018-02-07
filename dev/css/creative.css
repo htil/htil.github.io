@@ -14,6 +14,22 @@ hr {
 	border-color: #F05F40;
 }
 
+.icon {
+	height: 6em;
+	width: auto;
+	position:absolute;
+}
+
+.tagline {
+	font-size: 2em;
+	margin-left: 0.1em;
+}
+
+.banner {
+	color: #FFF;
+	margin-bottom: 10em;
+}
+
 hr.light {
 	border-color: #fff;
 }
@@ -169,7 +185,7 @@ img::-moz-selection {
 header.masthead {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - 56px);
-	background-image: url("../img/rlrgrade3.jpeg");
+	background-image: url("https://images.pexels.com/photos/123318/pexels-photo-123318.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -178,14 +194,15 @@ header.masthead {
 }
 
 header.masthead:before {
-	/* position: absolute;
+	position: absolute;
 	z-index: 0;
 	content: '';
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	opacity: 0; */
+	opacity: 0.2;
+	background-color: #000;
 }
 
 header.masthead hr {
