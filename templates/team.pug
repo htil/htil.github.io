@@ -1,9 +1,21 @@
-mixin member(photo, name, description)
-    .col-sm-4
+mixin member(photo, name, github, description, position)
+    - var positions = {first: 'margin-left: auto;', last: 'margin-right:auto;'};
+    - var memberStyle = position ? positions[position] : '';
+    div(class='col-sm-3', style=memberStyle)
         .team-member
           img.mx-auto.rounded-circle(src=photo, alt=name+' headshot')
           h4= name
-          p.text-muted= description
+          p.text-muted
+            div= description
+            div
+              a(
+                href='https://github.com/' + github,
+                data-toggle='tooltip',
+                data-placement='top',
+                title='',
+                class='githubLink fa fa-github',
+                data-original-title='@' + github,
+              )
 
 section#team.bg-light
   .container
@@ -12,8 +24,11 @@ section#team.bg-light
         h2.section-heading.text-uppercase Our Amazing Team
         h3.section-subheading.text-muted Wow wow wow r we neato.
     .row
-      +member('', 'Pierce', 'is cool')
-      +member('', 'Nick', 'is neat')
+      +member('img/team/needPhoto.png', 'Chris', '', 'the leader')
+      +member('img/team/needPhoto.png', 'Nick', '', 'is neat')
+      +member('img/team/amandaHolloman.png', 'Amanda', '', 'is super')
+      +member('img/team/jayLittle.jpg', 'Jay', '', 'is swell')
     .row
-      .col-lg-8.mx-auto.text-center
-        p.large.text-muted Some text about the team here
+      +member('img/team/pierceStegman.jpg', 'Pierce', 'pwstegman', 'is cool', 'first')
+      +member('img/team/william.jpg', 'William', '', 'is dandy')
+      +member('img/team/ajay.jpeg', 'Ajay', '', 'is nifty', 'last')
