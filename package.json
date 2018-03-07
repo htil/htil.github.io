@@ -20,6 +20,8 @@
   "homepage": "https://github.com/htil/htil.github.io#readme",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-pug": "^3.3.0"
+    "gulp-pug": "^3.3.0",
+    "jstransformer-markdown-it": "^2.0.0",
+    "markdown-it": "^8.4.1"
   }
 }
