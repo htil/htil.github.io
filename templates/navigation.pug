@@ -1,0 +1,22 @@
+mixin navlink(to, text)
+    li.nav-item
+        a.nav-link.js-scroll-trigger(href=to) #{text}
+
+nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+  .container
+    a.navbar-brand.js-scroll-trigger(href='#page-top') HTIL
+    button.navbar-toggler.navbar-toggler-right(
+        type='button',
+        data-toggle='collapse',
+        data-target='#navbarResponsive',
+        aria-controls='navbarResponsive',
+        aria-expanded='false',
+        aria-label='Toggle navigation'
+    )
+      | Menu
+      i.fa.fa-bars
+    #navbarResponsive.collapse.navbar-collapse
+        ul.navbar-nav.text-uppercase.ml-auto
+            +navlink('#about', 'About')
+            +navlink('#team', 'Team')
+            +navlink('#contact', 'Contact')

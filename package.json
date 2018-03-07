@@ -1,0 +1,25 @@
+{
+  "name": "htil.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htil/htil.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htil/htil.github.io/issues"
+  },
+  "homepage": "https://github.com/htil/htil.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0"
+  }
+}

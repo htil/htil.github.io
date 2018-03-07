@@ -1,0 +1,19 @@
+mixin member(photo, name, description)
+    .col-sm-4
+        .team-member
+          img.mx-auto.rounded-circle(src=photo, alt=name+' headshot')
+          h4= name
+          p.text-muted= description
+
+section#team.bg-light
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading.text-uppercase Our Amazing Team
+        h3.section-subheading.text-muted Wow wow wow r we neato.
+    .row
+      +member('', 'Pierce', 'is cool')
+      +member('', 'Nick', 'is neat')
+    .row
+      .col-lg-8.mx-auto.text-center
+        p.large.text-muted Some text about the team here
