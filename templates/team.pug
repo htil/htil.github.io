@@ -1,6 +1,6 @@
-mixin member(photo, name, github, description, position)
+mixin member(photo, name, github, description, imgPosition)
     - var positions = {first: 'margin-left: auto;', last: 'margin-right:auto;'};
-    - var memberStyle = position ? positions[position] : '';
+    - var memberStyle = imgPosition ? positions[imgPosition] : '';
     div(class='col-sm-3', style=memberStyle)
         .team-member
           img.mx-auto.rounded-circle(src=photo, alt=name+' headshot')
@@ -24,8 +24,8 @@ section#team.bg-light
         h2.section-heading.text-uppercase Our Amazing Team
         h3.section-subheading.text-muted Wow wow wow r we neato.
     .row
-      +member('img/team/needPhoto.png', 'Chris', '', 'the leader')
-      +member('img/team/needPhoto.png', 'Nick', '', 'is neat')
+      +member('img/team/chrisCrawford.jpg', 'Chris', '', 'the leader')
+      +member('img/team/nickCioli.jpg', 'Nick', '', 'is neat')
       +member('img/team/amandaHolloman.png', 'Amanda', '', 'is super')
       +member('img/team/jayLittle.jpg', 'Jay', '', 'is swell')
     .row
