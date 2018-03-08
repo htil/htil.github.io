@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
 var moment = require('moment');
+var fs = require('fs');
 
 gulp.task('sass', function () {
     return gulp.src('./sass/**/*.scss')
@@ -10,11 +11,12 @@ gulp.task('sass', function () {
 });
 
 gulp.task('html', function () {
+    var pugLocals = JSON.parse(fs.readFileSync('./templates/data/locals.json'));
+    pugLocals.date = moment().format('HH:MM MM/DD/YYYY');
+
     return gulp.src('templates/main.pug')
         .pipe(pug({
-            locals: {
-                date: moment().format('HH:MM MM/DD/YYYY')
-            }
+            locals: pugLocals
         }))
         .pipe(gulp.dest('./'))
 });

@@ -1,0 +1,52 @@
+{
+    "team": [
+        {
+            "name": "Chris Crawford",
+            "photo": "img/team/chrisCrawford.jpg",
+            "github": "chris35469",
+            "description": "the leader"
+        },
+
+        {
+            "name": "Nick",
+            "photo": "img/team/nickCioli.jpg",
+            "github": "nicholascioli",
+            "description": "is neat"
+        },
+
+        {
+            "name": "Amanda",
+            "photo": "img/team/amandaHolloman.png",
+            "github": "",
+            "description": "is super"
+        },
+
+        {
+            "name": "Jay",
+            "photo": "img/team/jayLittle.jpg",
+            "github": "",
+            "description": "is swell"
+        },
+
+        {
+            "name": "Pierce",
+            "photo": "img/team/pierceStegman.jpg",
+            "github": "pwstegman",
+            "description": "is cool"
+        },
+
+        {
+            "name": "William",
+            "photo": "img/team/william.jpg",
+            "github": "",
+            "description": "is dandy"
+        },
+
+        {
+            "name": "Ajay",
+            "photo": "img/team/ajay.jpeg",
+            "github": "ajaymehul",
+            "description": "is nifty"
+        }
+    ]
+}

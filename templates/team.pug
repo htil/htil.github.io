@@ -23,12 +23,14 @@ section#team.bg-light
       .col-lg-12.text-center
         h2.section-heading.text-uppercase Our Amazing Team
         h3.section-subheading.text-muted Wow wow wow r we neato.
-    .row
-      +member('img/team/chrisCrawford.jpg', 'Chris', '', 'the leader')
-      +member('img/team/nickCioli.jpg', 'Nick', '', 'is neat')
-      +member('img/team/amandaHolloman.png', 'Amanda', '', 'is super')
-      +member('img/team/jayLittle.jpg', 'Jay', '', 'is swell')
-    .row
-      +member('img/team/pierceStegman.jpg', 'Pierce', 'pwstegman', 'is cool', 'first')
-      +member('img/team/william.jpg', 'William', '', 'is dandy')
-      +member('img/team/ajay.jpeg', 'Ajay', '', 'is nifty', 'last')
+    each person, index in team
+      - var imgPosition = undefined;
+      if index % 4 == 0
+        - imgPosition = 'first'
+      if (index + 1) % 4 == 0 || index == team.length - 1
+        - imgPosition = 'last'
+      if imgPosition == 'first'
+        <div class='row'>
+      +member(person.photo, person.name, person.github, person.description, imgPosition)
+      if imgPosition == 'last'
+        </div>
