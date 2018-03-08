@@ -1,3 +1,9 @@
+.icon-white {
+  font-size: 2em;
+  color: white;
+  vertical-align: middle;
+  padding-right: 0.25em; }
+
 .githubLink {
   color: #555;
   text-decoration: none !important; }
