@@ -1,0 +1,10 @@
+@import 'colors';
+
+.githubLink {
+    color: $github;
+    text-decoration:none !important;
+}
+
+.githubLink:hover{
+    color: $github-hover;
+}
