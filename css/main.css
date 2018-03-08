@@ -4,3 +4,6 @@
 
 .githubLink:hover {
   color: #333; }
+
+section {
+  border-bottom: 1px solid #eaebed; }
