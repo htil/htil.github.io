@@ -3,7 +3,7 @@ mixin member(photo, name, github, description, imgPosition)
     - var memberStyle = imgPosition ? positions[imgPosition] : '';
     div(class='col-sm-3', style=memberStyle)
         .team-member
-          img.mx-auto.rounded-circle(src=photo, alt=name+' headshot')
+          img.headshot.mx-auto.rounded-circle(src=photo, alt=name+' headshot')
           h4= name
           p.text-muted
             div= description

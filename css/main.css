@@ -13,3 +13,7 @@
 
 section {
   border-bottom: 1px solid #eaebed; }
+
+.headshot {
+  max-width: 100%;
+  height: auto !important; }
