@@ -1,5 +1,9 @@
 @import 'colors';
 
+body {
+    padding-top: 2.5em;
+}
+
 .icon-white {
     font-size: 2em;
     color: white;
@@ -23,4 +27,18 @@ section {
 .headshot {
     max-width: 100%;
     height: auto !important;
+}
+
+#header {
+    background-image: url('../img/fountain.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+.headerText {
+    margin: 100px 0;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.8);
 }
