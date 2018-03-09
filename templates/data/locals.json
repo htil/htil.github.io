@@ -4,49 +4,70 @@
             "name": "Chris Crawford",
             "photo": "img/team/chrisCrawford.jpg",
             "github": "chris35469",
-            "description": "the leader"
+            "description": "Director"
         },
 
         {
             "name": "Nick",
             "photo": "img/team/nickCioli.jpg",
             "github": "nicholascioli",
-            "description": "is neat"
+            "description": "PhD Student"
         },
 
         {
             "name": "Amanda",
             "photo": "img/team/amandaHolloman.png",
             "github": "akholloman",
-            "description": "is super"
-        },
-
-        {
-            "name": "Jay",
-            "photo": "img/team/jayLittle.jpg",
-            "github": "JayLittle16",
-            "description": "is swell"
+            "description": "PhD Student"
         },
 
         {
             "name": "Pierce",
             "photo": "img/team/pierceStegman.jpg",
             "github": "pwstegman",
-            "description": "is cool"
-        },
-
-        {
-            "name": "William",
-            "photo": "img/team/william.jpg",
-            "github": "wjegbert",
-            "description": "is dandy"
+            "description": "Undergraduate Student"
         },
 
         {
             "name": "Ajay",
             "photo": "img/team/ajay.jpeg",
             "github": "ajaymehul",
-            "description": "is nifty"
+            "description": "Undergraduate Student" 
+        },
+
+        {
+            "name": "Will",
+            "photo": "img/team/william.jpg",
+            "github": "wjegbert",
+            "description": "Undergraduate Student"
+        },
+
+        {
+            "name": "Jenna",
+            "photo": "img/team/stock.jpg",
+            "github": "jenna-cate",
+            "description": "MS Student"
+        },
+
+        {
+            "name": "Jay",
+            "photo": "img/team/jayLittle.jpg",
+            "github": "JayLittle16",
+            "description": "Undergraduate Student"
+        },
+
+        {
+            "name": "Shomari",
+            "photo": "img/team/stock.jpg",
+            "github": "ShomariT",
+            "description": "Undergraduate Student"
+        },
+
+        {
+            "name": "Mia",
+            "photo": "img/team/stock.jpg",
+            "github": "miaMckee",
+            "description": "Undergraduate Student"
         }
     ]
 }
