@@ -47,6 +47,13 @@
             "photo": "img/team/ajay.jpeg",
             "github": "ajaymehul",
             "description": "is nifty"
+        },
+
+        {
+            "name": "Shomari",
+            "photo": "img/team/shomariThomas.jpg",
+            "github": "shomarit",
+            "description": "is terrific"
         }
     ]
 }
