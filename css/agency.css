@@ -64,20 +64,6 @@ section h3.section-subheading {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(229, 23, 23, 0.5) !important; }
 
-::-moz-selection {
-  background: #990000;
-  text-shadow: none; }
-
-::selection {
-  background: #990000;
-  text-shadow: none; }
-
-img::selection {
-  background: transparent; }
-
-img::-moz-selection {
-  background: transparent; }
-
 #mainNav {
   background-color: #212529; }
 

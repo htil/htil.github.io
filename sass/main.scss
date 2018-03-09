@@ -30,15 +30,22 @@ section {
 }
 
 #header {
-    background-image: url('../img/fountain.jpg');
+    background-image: url('../img/background-light.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    color: #FFF;
+    color: #212529;
 }
 
 .headerText {
-    margin: 100px 0;
-    padding: 50px 0;
-    background: rgba(0, 0, 0, 0.8);
+    margin: 4.7em 0;
+    padding: 3.125em 0;
+}
+
+.headerText h1 {
+    font-size: 3.25em;
+}
+
+#contact a {
+    margin-bottom: 0.5em;
 }
