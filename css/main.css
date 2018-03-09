@@ -44,3 +44,7 @@ section {
 
 .researchRow {
   margin-bottom: 3em; }
+
+#research h1 {
+  text-align: center;
+  margin-bottom: 1.5em; }
