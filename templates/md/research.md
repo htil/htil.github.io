@@ -1,7 +1,5 @@
 # RESEARCH
 
-Here is our research
-
 ## BCI
 ### Block-Based Interactive EEG Software
 This research investigates ways to utilize Visual Programming Languages (VPLs) with neurophysiological measurements of electroencephalography (EEG) signals acquired with a Brain-Computer Interface (BCI). This data can be used to understand cognitive and affective states such as fatigue, cognitive workload, engagement, attention, and frustration. This work features a block-based programming environment capable of analyzing (near) real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback applications. See ['Brain-Computer Interface for Novice Programmers' (SIGCSE 18')](https://dl.acm.org/citation.cfm?id=3159603) for more information.

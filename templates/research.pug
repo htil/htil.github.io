@@ -1,5 +1,14 @@
 section#research
   .container
-    .row
-      .col-lg-12.text-center
-        include:markdown-it md/research.md
+    each interest, index in research
+      .row.researchRow
+        if index % 2 == 0
+          .col-lg-4
+            img.researchImage(src=interest.img)
+        .col-lg-8
+          h2= interest.title
+          p= interest.description
+        if index % 2 == 1
+          .col-lg-4
+            img.researchImage(src=interest.img)
+            

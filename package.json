@@ -22,7 +22,8 @@
     "gulp": "^3.9.1",
     "gulp-pug": "^3.3.0",
     "jstransformer-markdown-it": "^2.0.0",
-    "markdown-it": "^8.4.1"
+    "markdown-it": "^8.4.1",
+    "npm": "^5.7.1"
   },
   "devDependencies": {
     "gulp-sass": "^3.1.0",

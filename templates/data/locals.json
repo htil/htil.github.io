@@ -68,13 +68,26 @@
             "photo": "img/team/shomariThomas.jpg",
             "github": "ShomariT",
             "description": "Undergraduate Student"
+        }
+    ],
+
+    "research": [
+        {
+            "title": "Block-Based Brain Computer Interface Software",
+            "img": "img/research/neuroblock.png",
+            "description": "This work features a block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback brain computer interface (BCI) applications."
         },
 
         {
-            "name": "Mia",
-            "photo": "img/team/stock.jpg",
-            "github": "miaMckee",
-            "description": "Undergraduate Student"
+            "title": "Another thing",
+            "img": "img/research/neuroblock.png",
+            "description": "This work features a block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback brain computer interface (BCI) applications."
+        },
+
+        {
+            "title": "Another another thing",
+            "img": "img/research/neuroblock.png",
+            "description": "This work features a block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback brain computer interface (BCI) applications."
         }
     ]
 }
