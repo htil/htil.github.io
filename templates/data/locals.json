@@ -79,15 +79,15 @@
         },
 
         {
-            "title": "Another thing",
-            "img": "img/research/neuroblock.png",
-            "description": "This work features a block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback brain computer interface (BCI) applications."
+            "title": "Brain-Drone Race",
+            "img": "img/team/stock.jpg",
+            "description": "The Brain-Drone Race is a competition featuring users' cognitive ability and mental endurance. During this event competitors are required to out-focus opponents in a drone drag race fueled by electrical signals emitted from the brain. On April 16, 2016, 16 participants competed using the Emotiv insight headsets and DJI Phantom 2 drones."
         },
 
         {
-            "title": "Another another thing",
-            "img": "img/research/neuroblock.png",
-            "description": "This work features a block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback brain computer interface (BCI) applications."
+            "title": "Multi-robot Surveillance Systems",
+            "img": "img/team/stock.jpg",
+            "description": "This research investigates the impact spatial and temporal cues have on operators' trust in human-multi-robot systems."
         }
     ]
 }
