@@ -91,7 +91,6 @@ section h3.section-subheading {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: $primary-color;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -101,7 +100,8 @@ section h3.section-subheading {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: $highlight;
+  /*color: $highlight;*/
+  font-weight: bold;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -114,7 +114,8 @@ section h3.section-subheading {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: $primary-color;
+  /*color: $primary-color;*/
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
