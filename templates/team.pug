@@ -1,6 +1,6 @@
 mixin member(photo, name, github, description, imgPosition)
     - var positions = {first: 'margin-left: auto;', last: 'margin-right:auto;'};
-    - var memberStyle = imgPosition ? positions[imgPosition] : '';
+    - var memberStyle = imgPosition.map(p => positions[p]).join(' ');
     div(class='col-sm-3', style=memberStyle)
         .team-member
           img.headshot.mx-auto.rounded-circle(src=photo, alt=name+' headshot')
@@ -24,13 +24,13 @@ section#team
         h2.section-heading.text-uppercase The Team
         h3.section-subheading.text-muted <!-- removed subheading -->
     each person, index in team
-      - var imgPosition = undefined;
+      - var imgPosition = [];
       if index % 4 == 0
-        - imgPosition = 'first'
+        - imgPosition.push('first')
       if (index + 1) % 4 == 0 || index == team.length - 1
-        - imgPosition = 'last'
-      if imgPosition == 'first'
+        - imgPosition.push('last')
+      if imgPosition.indexOf('first') != -1
         <div class='row'>
       +member(person.photo, person.name, person.github, person.description, imgPosition)
-      if imgPosition == 'last'
+      if imgPosition.indexOf('last') != -1
         </div>

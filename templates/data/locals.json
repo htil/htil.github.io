@@ -82,5 +82,11 @@
             "img": "img/research/stock.jpg",
             "description": "This research investigates the impact spatial and temporal cues have on operators' trust in human-multi-robot systems."
         }
+    ],
+
+    "publications": [
+        {
+            "citation": "Stegman, P., Crawford, C.S., and Gray, J., (2018). WebBCI: An Electroencephalography Toolkit Built on Modern Web Technologies. HCI International 2018, July 15-20, 2018, Las Vegas, NV, USA. Status: Accepted"
+        }
     ]
 }

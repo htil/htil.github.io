@@ -1,5 +1,8 @@
 section#publications
   .container
     .row
-      .col-lg-12.text-center
-        include:markdown-it md/publications.md
+      .col-lg-12
+        h2.section-heading.text-uppercase.text-center Publications
+        div(style="padding: 0 3em;")
+          each publication in publications
+            p= publication.citation
