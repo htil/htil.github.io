@@ -86,7 +86,11 @@
 
     "publications": [
         {
-            "citation": "Stegman, P., Crawford, C.S., and Gray, J., (2018). WebBCI: An Electroencephalography Toolkit Built on Modern Web Technologies. HCI International 2018, July 15-20, 2018, Las Vegas, NV, USA. Status: Accepted"
+            "citation": "Stegman, P., Crawford, C.S., and Gray, J., (2018). <b>WebBCI: An Electroencephalography Toolkit Built on Modern Web Technologies.</b> HCI International 2018, July 15-20, 2018, Las Vegas, NV, USA. Status: Accepted"
+        },
+
+        {
+            "citation": "Crawford, C.S., Andujar, M., and Gilbert, J.E., (2018). <b>Brain Computer Interface for Novice Programmers.</b> ACM SIGCSE Technical Symposium on Computer Science Education, February 21-24, 2018, Baltimore, MA, USA. Status: Accepted"
         }
     ]
 }
