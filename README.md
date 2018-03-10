@@ -12,4 +12,4 @@ Website for Human Technology Interaction Lab at the University of Alabama.
 
 `npm install` call from project root to install dependencies
 
-`npm run build` compiles json, pug, and sass files to css and main.html (will be index.html when live)
+`npm run build` compiles json, pug, and sass files to css and index.html
