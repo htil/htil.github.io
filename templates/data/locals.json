@@ -73,7 +73,7 @@
 
         {
             "title": "Facilitating Human-Robot Interaction Evaluation with Neurophysiological Visualizations",
-            "img": "img/research/pbri.png",
+            "img": "img/research/pBRI_.png",
             "description": "This project explores links between users’ cognitive state and spatial information from robots. Cognitive state data is interpreted from EEG signals while users communicate commands to robots during navigation tasks. This work presents a step towards visualizing position-based measurements of users’ cognitive state during interactions between humans and robots."
         },
 
