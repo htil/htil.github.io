@@ -22,6 +22,7 @@ section {
   height: auto !important; }
 
 #header {
+  background-color: #EAEAEA;
   background-image: url("../img/background-lighter.jpg");
   background-size: cover;
   background-position: center center;
