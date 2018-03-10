@@ -14,7 +14,7 @@ gulp.task('html', function () {
     var pugLocals = JSON.parse(fs.readFileSync('./templates/data/locals.json'));
     pugLocals.date = moment().format('HH:MM MM/DD/YYYY');
 
-    return gulp.src('templates/main.pug')
+    return gulp.src('templates/index.pug')
         .pipe(pug({
             locals: pugLocals
         }))
