@@ -21,4 +21,4 @@ gulp.task('html', function () {
         .pipe(gulp.dest('./'))
 });
 
-gulp.task('default', ['sass', 'html']);
+gulp.task('default', gulp.series('sass', 'html'));
