@@ -22,6 +22,13 @@
         },
 
         {
+            "name": "Bryan",
+            "photo": "img/team/bryanHernandez.jpeg",
+            "github": "BryanYomar",
+            "description": "PhD Student"
+        },
+
+        {
             "name": "Jenna",
             "photo": "img/team/jenna.jpg",
             "github": "jenna-cate",
