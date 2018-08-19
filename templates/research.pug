@@ -10,5 +10,22 @@ section#research
               h5=interest.titleShort
               p=interest.descriptionShort
               .mt-auto
-                a(href='#') Read more
-                //- TODO: Bootstrap modal or something that contains long title and long description
+                a(href='#', data-toggle='modal', data-target=`#research-${index}-modal`) Read more
+        .modal(
+          tabindex='-1',
+          role='dialog',
+          aria-labelledby=`#research-${index}-modal-title`
+          aria-hidden='true',
+          id=`research-${index}-modal`)
+          .modal-dialog.modal-lg.modal-dialog-centered(role='document')
+            .modal-content
+              .modal-header
+                h5.modal-title(id=`research-${index}-modal-title`)=interest.title
+                button.close(type='button', data-dismiss='modal', aria-label='Close')
+                  span(aria-hidden='true') ×
+              .modal-body
+                .text-center.pb-4
+                  img(src=interest.img) 
+                p=interest.description
+              .modal-footer
+                button.btn.btn-secondary(type='button', data-dismiss='modal') Close
