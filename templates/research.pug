@@ -1,10 +1,14 @@
 section#research
   .container
     h1 RESEARCH
-    each interest, index in research
-      .row.researchRow(class=(index % 2 == 1) ? 'flex-row-reverse' : '')
-        .col-md-8
-          img.researchImage(src=interest.img)
-        .col-md-4
-          h2= interest.title
-          p= interest.description
+    .row
+      each interest, index in research
+        .col-lg-3.col-md-4.mb-4
+          .card
+            img.card-img(src=interest.img, alt=interest.title)
+            .card-body.d-flex.flex-column
+              h5=interest.titleShort
+              p=interest.descriptionShort
+              .mt-auto
+                a(href='#') Read more
+                //- TODO: Bootstrap modal or something that contains long title and long description

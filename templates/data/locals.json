@@ -74,32 +74,42 @@
     "research": [
         {
             "title": "Block-Based Brain Computer Interface Software",
+            "titleShort": "EEG BCI Software",
             "img": "img/research/neuroblock.jpg",
-            "description": "In this project, we are exploring block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback applications. This work is motivated by insight presented in Brain-Computer Interface (BCI) and visual languages literature."
+            "description": "In this project, we are exploring block-based programming environment capable of analyzing real-time electroencephalography (EEG) data that enables users to quickly develop neurofeedback applications. This work is motivated by insight presented in Brain-Computer Interface (BCI) and visual languages literature.",
+            "descriptionShort": "Quickly develop neurofeedback applications with a block-based programming environment"
         },
 
         {
             "title": "Facilitating Human-Robot Interaction Evaluation with Neurophysiological Visualizations",
+            "titleShort": "Brain-Robot Interface",
             "img": "img/research/pBRI_.png",
-            "description": "This project explores links between users’ cognitive state and spatial information from robots. Cognitive state data is interpreted from EEG signals while users communicate commands to robots during navigation tasks. This work presents a step towards visualizing position-based measurements of users’ cognitive state during interactions between humans and robots."
+            "description": "This project explores links between users’ cognitive state and spatial information from robots. Cognitive state data is interpreted from EEG signals while users communicate commands to robots during navigation tasks. This work presents a step towards visualizing position-based measurements of users’ cognitive state during interactions between humans and robots.",
+            "descriptionShort": "Exploring links between users’ cognitive state and spatial information from robots"
         },
 
         {
-            "title": "WebBCI",
+            "title": "WebBCI: An Electroencephalography Toolkit Built on Modern Web Technologies",
+            "titleShort": "WebBCI",
             "img": "img/research/webbci.png",
-            "description": "Software environments used to create current neurotechnologies are often designed for developers experienced with languages such as Matlab, C++, Java, and Python. This research investigates the feasibility of JavaScript as a development platform for non-critical BCI systems. WebBCI is a JavaScript library that provides the basic tools necessary to run a BCI system entirely within a web browser. WebBCI builds upon existing JavaScript mathematical libraries such as Math.js and Numeric JavaScript, adding BCI-specific paradigms such as common spatial pattern (CSP), machine learning tools such as linear discriminant analysis (LDA), and signal processing methods such as power spectral density (PSD) and band power extraction."
+            "description": "Software environments used to create current neurotechnologies are often designed for developers experienced with languages such as Matlab, C++, Java, and Python. This research investigates the feasibility of JavaScript as a development platform for non-critical BCI systems. WebBCI is a JavaScript library that provides the basic tools necessary to run a BCI system entirely within a web browser. WebBCI builds upon existing JavaScript mathematical libraries such as Math.js and Numeric JavaScript, adding BCI-specific paradigms such as common spatial pattern (CSP), machine learning tools such as linear discriminant analysis (LDA), and signal processing methods such as power spectral density (PSD) and band power extraction.",
+            "descriptionShort": "JavaScript based EEG signal processing for BCI applications"
         },
 
         {
             "title": "Artistic BCI",
+            "titleShort": "Artistic BCI",
             "img": "img/research/neurobrush.png",
-            "description": "Science, technology, engineering, and mathematics (STEM) is rapidly transitioning to STEAM, which integrates art, design, and science. This approach promotes creativity in traditional engineering fields. Our work explores approaches toward creating artistic BCI applications. We recently developed NeuroBrush, a multi-modal, web-based application that allows users to paint abstract art competitively. The EEG-based painting application features a brush that dynamically changes in size and color in response to a user’s cognitive state. The goal of this research is to expand on prior artistic BCI work by integrating gamification, art, multiparty, and multimodal BCI. This project aims to explore how combining these approaches could influence BCI-based self-regulation training."
+            "description": "Science, technology, engineering, and mathematics (STEM) is rapidly transitioning to STEAM, which integrates art, design, and science. This approach promotes creativity in traditional engineering fields. Our work explores approaches toward creating artistic BCI applications. We recently developed NeuroBrush, a multi-modal, web-based application that allows users to paint abstract art competitively. The EEG-based painting application features a brush that dynamically changes in size and color in response to a user’s cognitive state. The goal of this research is to expand on prior artistic BCI work by integrating gamification, art, multiparty, and multimodal BCI. This project aims to explore how combining these approaches could influence BCI-based self-regulation training.",
+            "descriptionShort": "NeuroBrush - a web-based EEG application that allows users to paint abstract art competitively"
         },
 
         {
             "title": "Brain-Drone Race",
+            "titleShort": "Brain-Drone Race",
             "img": "img/research/bdr.png",
-            "description": "The Brain-Drone Race is a competition featuring users' cognitive ability and mental endurance. During this event competitors are required to out-focus opponents in a drone drag race influenced by electrical signals emitted from the brain. On April 16, 2016, 16 participants competed using the Emotiv insight headsets and DJI Phantom 2 drones. This event was featured in over 800 news outlets including Discovery, USA Today, and the New York Times. In this project, we are exploring methods to leverage real-time communication frameworks to design interactive EEG-based multiparty experiences. This work also seeks to expand awareness of emerging EEG technologies by inspiring future designers and engineers of neurotechnologies. "
+            "description": "The Brain-Drone Race is a competition featuring users' cognitive ability and mental endurance. During this event competitors are required to out-focus opponents in a drone drag race influenced by electrical signals emitted from the brain. On April 16, 2016, 16 participants competed using the Emotiv insight headsets and DJI Phantom 2 drones. This event was featured in over 800 news outlets including Discovery, USA Today, and the New York Times. In this project, we are exploring methods to leverage real-time communication frameworks to design interactive EEG-based multiparty experiences. This work also seeks to expand awareness of emerging EEG technologies by inspiring future designers and engineers of neurotechnologies.",
+            "descriptionShort": "Competitors had to out-focus opponents in a drone race influenced by electrical signals emitted from the brain"
         }
     ],
 
