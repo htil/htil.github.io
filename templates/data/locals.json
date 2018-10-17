@@ -89,10 +89,10 @@
         },
 
         {
-            "title": "WebBCI: An Electroencephalography Toolkit Built on Modern Web Technologies",
-            "titleShort": "WebBCI",
-            "img": "img/research/webbci.png",
-            "description": "Software environments used to create current neurotechnologies are often designed for developers experienced with languages such as Matlab, C++, Java, and Python. This research investigates the feasibility of JavaScript as a development platform for non-critical BCI systems. WebBCI is a JavaScript library that provides the basic tools necessary to run a BCI system entirely within a web browser. WebBCI builds upon existing JavaScript mathematical libraries such as Math.js and Numeric JavaScript, adding BCI-specific paradigms such as common spatial pattern (CSP), machine learning tools such as linear discriminant analysis (LDA), and signal processing methods such as power spectral density (PSD) and band power extraction.",
+            "title": "BCI.js - An Electroencephalography Toolkit Built on Modern Web Technologies",
+            "titleShort": "BCI.js",
+            "img": "img/research/bcijs.png",
+            "description": "Software environments used to create current neurotechnologies are often designed for developers experienced with languages such as Matlab, C++, Java, and Python. This research investigates the feasibility of JavaScript as a development platform for non-critical BCI systems. BCI.js is a JavaScript library that provides the basic tools necessary to run a BCI system entirely within a web browser. BCI.js builds upon existing JavaScript mathematical libraries such as Math.js and Numeric JavaScript, adding BCI-specific paradigms such as common spatial pattern (CSP), machine learning tools such as linear discriminant analysis (LDA), and signal processing methods such as power spectral density (PSD), band power extraction, and fastICA.",
             "descriptionShort": "JavaScript based EEG signal processing for BCI applications"
         },
 
@@ -110,6 +110,14 @@
             "img": "img/research/bdr.png",
             "description": "The Brain-Drone Race is a competition featuring users' cognitive ability and mental endurance. During this event competitors are required to out-focus opponents in a drone drag race influenced by electrical signals emitted from the brain. On April 16, 2016, 16 participants competed using the Emotiv insight headsets and DJI Phantom 2 drones. This event was featured in over 800 news outlets including Discovery, USA Today, and the New York Times. In this project, we are exploring methods to leverage real-time communication frameworks to design interactive EEG-based multiparty experiences. This work also seeks to expand awareness of emerging EEG technologies by inspiring future designers and engineers of neurotechnologies.",
             "descriptionShort": "Competitors had to out-focus opponents in a drone race influenced by electrical signals emitted from the brain"
+        },
+
+        {
+            "title": "Autism Spectrum Disorder EEG Research",
+            "titleShort": "ASD EEG",
+            "img": "img/research/eegchild.jpg",
+            "description": "Autism Spectrum Disorder is a neurodevelopmental disorder that affects sensorimotor, cognitive, and socio-communicative ability throughout the lifespan. The current behavioral diagnostics for autism can only be applied from 3 years of age, which delays the onset of interventions that are badly needed. This project explores the use of machine learning techniques to identify neurophysiological patterns in the resting-state EEG data from children with autism spectrum disorder (ASD) and their typically developing counterparts. Insights gained from this project will be used to investigate ways to provide rich automated feedback that assists parents with learning vital techniques for joint attention and social communication. We are currently looking for students interested in becoming involved with this research. Collaborator: Evguenia Malaia <https://malaia.people.ua.edu/>",
+            "descriptionShort": "Investigating ways to provide rich automated feedback that assists parents with learning vital techniques for joint attention and social communication"
         }
     ],
 
